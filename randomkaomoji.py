@@ -19,4 +19,4 @@ for bar in soup.find_all('button', attrs={'class': "btn"}):
 
 
 def random_kaomoji():
-  print(kaomoji[random.randint(0, 524)])
+  return kaomoji[random.randint(0, 524)]
